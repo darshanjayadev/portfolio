@@ -110,6 +110,7 @@ table {
   color: var(--font-color-dark);
   border-radius: 15px;
   margin-bottom: -1px;
+  box-shadow: 0px 0px 15px 0px rgba(23,23,31,0.5);
 }
 
 /* Projects */
@@ -196,6 +197,7 @@ table {
   background-color: var(--secondary-color);
   border-radius: 15px 15px 0 0;
   padding: 0.5em;
+  box-shadow: 0px 0px 15px 0px rgba(23,23,31,0.5);
 }
 
 .Footer .to-top a {
