@@ -1,13 +1,193 @@
+/* CSS RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* CUSTOM STYLING */
+
+:root {
+  --primary-color: #FFBCB5;
+  --secondary-color: #E87EA1;
+  --secondary-color-dark: rgb(226, 55, 112);
+  --background-color: #464F51;
+  --font-color-light: #EAFFF7;
+  --font-color-dark: #17171F;
+  font-family: 'Chilanka', cursive;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* App */
+.App {
+  background-color: var(--background-color);
+  color: var(--font-color-light);
+  height: 100vh;
+  overflow: auto;
+}
+
+/* Header */
+.Header {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.Header .mail-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'Chilanka', cursive;
+}
+
+.Header h1 {
+  font-size: 5em;
+}
+
+.Header h3 {
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.Header .mail {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* Main */
+.Main {
+  background-color: var(--primary-color);
+  color: var(--font-color-dark);
+  border-radius: 15px;
+  margin-bottom: -1px;
+}
+
+/* Projects */
+
+.Projects > header {
+  text-align: center;
+  overflow: auto;
+}
+
+.Projects h2 {
+  font-size: 2em;
+  margin: 1em;
+}
+
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project {
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+.project .screenshot {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.project .screenshot > img {
+  max-width: 100%;
+}
+
+.project h4 {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+.project .project-links a {
+  text-decoration: none;
+  color: var(--secondary-color-dark);
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+/* Footer */
+
+.Footer {
+  background-color: var(--background-color);
+  color: var(--font-color-light);
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.Footer .contact {
+  margin: 2em;
+}
+
+.Footer p {
+  padding: 0.2em;
+}
+
+.Footer .link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-family: 'Chilanka', cursive;
+}
+
+.Footer .to-top {
+  background-color: var(--secondary-color);
+  border-radius: 15px 15px 0 0;
+  padding: 0.5em;
+}
+
+.Footer .to-top a {
+  color: var(--font-color-light);
+  width: 100%;
+  text-decoration: none;
 }
