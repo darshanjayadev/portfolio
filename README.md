@@ -4,6 +4,10 @@ Tried to create a portfolio with simple and clean design.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Screenshot](./screenshot.png)
+
+[Live link](https://darshanjayadev.netlify.com/)
+
 ## Get Started
 
 Clone this repository to your work enviroment:
