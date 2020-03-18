@@ -1,6 +1,6 @@
 # Portfolio
 
-Tried to create a portfolio with simple and clean design.
+My personal portfolio with simple and clean design.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Get Started
 
-Clone this repository to your work enviroment:
+Clone this repository to your work environment:
 
 ```bash
 git clone git@github.com:juzQrios/portfolio.git
