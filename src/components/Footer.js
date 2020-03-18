@@ -1,6 +1,13 @@
 import React from 'react'
 
 const Footer = () => {
+  const handleClick = () => {
+    const top = document.querySelector('#top');
+    top.scrollIntoView({
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <footer className="Footer">
       <section className="contact">
@@ -12,10 +19,10 @@ const Footer = () => {
         </p>
       </section>
       <section className="to-top">
-        <a href="#Header">
+        <button onClick={handleClick}>
           <div>^</div>
           <div>To Top</div>
-        </a>
+        </button>
       </section>
     </footer>
   );
