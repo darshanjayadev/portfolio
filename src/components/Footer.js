@@ -17,6 +17,15 @@ const Footer = () => {
         <p>
           Github: <a className="link" href="https://github.com/juzQrios">@juzQrios</a>
         </p>
+        <p>
+          LinkedIn: <a className="link" href="https://www.linkedin.com/in/jayadevdarshan/">Darshan J</a>
+        </p>
+        <p>
+          Twitter: <a className="link" href="https://twitter.com/DarshanJayadev">@DarshanJayadev</a>
+        </p>
+        <p>
+          CodePen: <a className="link" href="https://codepen.io/juzQrios">@juzQrios</a>
+        </p>
       </section>
       <section className="to-top">
         <button onClick={handleClick}>
