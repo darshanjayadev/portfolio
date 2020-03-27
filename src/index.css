@@ -67,6 +67,17 @@ table {
   box-sizing: border-box;
 }
 
+.link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-family: 'Chilanka', cursive;
+}
+
+.link:hover, .link:focus {
+  text-decoration: underline;
+}
+
 /* App */
 .App {
   background-color: var(--background-color);
@@ -87,13 +98,6 @@ table {
   padding-bottom: 1em;
 }
 
-.Header .mail-link {
-  color: var(--secondary-color);
-  text-decoration: none;
-  font-size: 1.5em;
-  font-family: 'Chilanka', cursive;
-}
-
 .Header h1 {
   font-size: 5em;
 }
@@ -108,10 +112,22 @@ table {
   margin-bottom: 1em;
 }
 
+.Header .social-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-logos img {
+  width: 32px;
+  height: auto;
+  margin: 10px;
+}
+
 /* Main */
 .Main {
   position: relative;
-  margin-top: 15em;
+  margin-top: 18em;
   background-color: var(--primary-color);
   color: var(--font-color-dark);
   border-radius: 15px;
@@ -160,9 +176,7 @@ table {
 }
 
 .project .project-links a {
-  text-decoration: none;
   color: var(--secondary-color-dark);
-  font-size: 1.5em;
   margin: 0.5em;
 }
 
@@ -181,12 +195,6 @@ table {
 
 .Footer p {
   padding: 0.2em;
-}
-
-.Footer .link {
-  color: var(--secondary-color);
-  text-decoration: none;
-  font-family: 'Chilanka', cursive;
 }
 
 .Footer .to-top {

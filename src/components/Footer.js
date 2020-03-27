@@ -21,7 +21,7 @@ const Footer = () => {
           LinkedIn: <a className="link" href="https://www.linkedin.com/in/jayadevdarshan/">Darshan J</a>
         </p>
         <p>
-          Twitter: <a className="link" href="https://twitter.com/DarshanJayadev">@DarshanJayadev</a>
+          Twitter: <a className="link" href="https://twitter.com/DarshanJayadev">@juzQrios</a>
         </p>
         <p>
           CodePen: <a className="link" href="https://codepen.io/juzQrios">@juzQrios</a>
