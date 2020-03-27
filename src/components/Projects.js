@@ -48,7 +48,7 @@ const Projects = () => {
           <header>
             <h4>Tic-Tac-Toe collab clone</h4>
             <div className="project-links">
-              <a className="link" href="https://microverse-xo.netlify.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className="link" href="https://raw.githack.com/juzQrios/tic-tac-toe/customize-style/index.html" target="_blank" rel="noopener noreferrer">Live Demo</a>
               <a className="link" href="https://github.com/juzQrios/tic-tac-toe/tree/customize-style" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
           </header>
@@ -74,7 +74,7 @@ const Projects = () => {
           <header>
             <h4>React implementation of Odin Weather App</h4>
             <div className="project-links">
-              <a className="link" href="https://microverse-weather-context.netlify.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className="link" href="https://odin-weather-app.netlify.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
               <a className="link" href="https://github.com/juzQrios/odin-weather-app/tree/react-dev" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
           </header>
