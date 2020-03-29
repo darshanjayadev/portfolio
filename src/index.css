@@ -68,15 +68,15 @@ table {
 }
 
 .link {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--secondary-color);
   font-size: 1.5rem;
   font-family: 'Chilanka', cursive;
 }
 
-.link:hover, .link:focus {
+/* .link:hover, .link:focus {
   text-decoration: underline;
-}
+} */
 
 /* App */
 .App {
