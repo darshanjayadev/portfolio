@@ -15,7 +15,7 @@ const Footer = () => {
           Email: <a className="link" href="mailto:dj30c.1@gmail.com">dj30c.1@gmail.com</a>
         </p>
         <p>
-          Github: <a className="link" href="https://github.com/juzQrios">@juzQrios</a>
+          GitHub: <a className="link" href="https://github.com/juzQrios">@juzQrios</a>
         </p>
         <p>
           LinkedIn: <a className="link" href="https://www.linkedin.com/in/jayadevdarshan/">Darshan J</a>
