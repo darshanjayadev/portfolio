@@ -7,7 +7,7 @@
 
 [//]: # (Live Demo link)
 <p align="center">
-  <a href="https://darshanjayadev.netlify.com/">Live Demo</a>
+  <a href="https://darshanjayadev.netlify.app/">Live Demo</a>
 </p>
 
 ## Built With
