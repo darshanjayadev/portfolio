@@ -35,7 +35,7 @@ const Projects = () => {
           <header>
             <h4>React app with theme switching</h4>
             <div className="project-links">
-              <a className="link" href="https://microverse-themed-restaurant.netlify.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className="link" href="https://odin-restaurant-react.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
               <a className="link" href="https://github.com/juzQrios/odin-restaurant-react" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </header>
