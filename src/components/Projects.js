@@ -1,4 +1,5 @@
 import React from 'react'
+import freeCodeCamp from '../img/freecodecamp-projects.png';
 import capstoneFinal from '../img/microverse-capstone-final.png';
 import weatherContext from '../img/microverse-weather-context.png';
 import odinWeather from '../img/odin-weather.png';
@@ -15,6 +16,19 @@ const Projects = () => {
         </h2>
       </header>
       <div className="projects-list">
+      <article className="project">
+          <div className="screenshot">
+            <img src={freeCodeCamp} alt="Alt" />
+          </div>
+          <header>
+            <h4>freeCodeCamp Projects</h4>
+            <div className="project-links">
+              <a className="link" href="https://juz-freecodecamp-projects.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className="link" href="https://github.com/juzQrios/freecodecamp-project-landing-page" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </header>
+        </article>
+
         <article className="project">
           <div className="screenshot">
             <img src={capstoneFinal} alt="Alt" />
