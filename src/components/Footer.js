@@ -19,8 +19,8 @@ const Footer = () => {
         </p>
         <p>
           GitHub:{" "}
-          <a className="link" href="https://github.com/juzQrios">
-            @juzQrios
+          <a className="link" href="https://github.com/darshanjayadev">
+            @darshanjayadev
           </a>
         </p>
         <p>
@@ -34,8 +34,8 @@ const Footer = () => {
         </p>
         <p>
           CodePen:{" "}
-          <a className="link" href="https://codepen.io/juzQrios">
-            @juzQrios
+          <a className="link" href="https://codepen.io/darshanjayadev">
+            @darshanjayadev
           </a>
         </p>
       </section>

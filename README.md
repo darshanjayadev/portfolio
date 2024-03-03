@@ -25,7 +25,7 @@
 1. Clone this repository.
 
 ```bash
-git clone git@github.com:juzQrios/portfolio.git
+git clone git@github.com:darshanjayadev/portfolio.git
 ```
 
 2. Install dependencies.
@@ -56,7 +56,7 @@ Easiest method being to deploy it from Git by clicking on the "[New site from Gi
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to checkout this project's [Kanban board](https://github.com/juzQrios/portfolio/projects/1) or [issues page](https://github.com/juzQrios/portfolio/issues).
+Feel free to checkout this project's [Kanban board](https://github.com/darshanjayadev/portfolio/projects/1) or [issues page](https://github.com/darshanjayadev/portfolio/issues).
 
 ## Acknowledgments
 
@@ -72,6 +72,6 @@ This project is [MIT](./LICENSE) licensed.
 
 #### Darshan
 
-* GitHub: [@juzQrios](https://github.com/juzQrios)
+* GitHub: [@darshanjayadev](https://github.com/darshanjayadev)
 * Linkedin: [Darshan J](https://www.linkedin.com/in/jayadevdarshan/)
 * Email: <dj30c.1@gmail.com>

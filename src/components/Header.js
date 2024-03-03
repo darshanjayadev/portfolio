@@ -12,7 +12,7 @@ const Header = () => {
         </a>
       </div>
       <div className="social-logos">
-        <a className="logo-link link" href="https://github.com/juzQrios">
+        <a className="logo-link link" href="https://github.com/darshanjayadev">
           {/* https://github.com/logos */}
           <img src={githubLogo} alt="GitHub" />
         </a>
